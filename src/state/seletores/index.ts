@@ -24,7 +24,9 @@ export const eventosFiltradosState = selector({
 export const eventosAsync = selector({
   key: "eventosAsync",
   get: async () => {
-    const respostaHttp = await fetch("http://localhost:8080/eventos");
+    const respostaHttp = await fetch(
+      "https://coelhoalexandre.github.io/projeto-alura-event-tracker/db.json"
+    );
     const eventosJson: IEvento[] = await respostaHttp.json();
     return eventosJson.map((evento) => ({
       ...evento,
