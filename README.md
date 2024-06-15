@@ -32,7 +32,8 @@ Projeto do curso [React: gerenciando estado com Recoil](https://cursos.alura.com
 3. JS
 4. React
 5. TS
-6. Json-server
+6. Recoil
+7. Json-server
 
 ## Autor
 Meu nome é **Alexandre Coelho**, sou autor deste ReadMe e estudante de Desenvolvimento Web. 
